@@ -20,6 +20,8 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
+
+
 Route::post('students/create',[StudentController::class,'create_students']);
 Route::get('getAllStudents',[StudentController::class,'getAllStudents']);
 Route::get('students/{id}',[StudentController::class,'get_student_by_id']);
